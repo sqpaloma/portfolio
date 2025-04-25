@@ -7,25 +7,24 @@ import { AnimatedText } from "@/components/animated-text";
 
 export function HeroSection() {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-indigo-50 to-white">
-      <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
+    <section className="w-full flex flex-col items-center justify-center bg-gradient-to-b from-indigo-50 to-white">
+      <div className="container mt-24 mx-auto px-2 md:px-6 flex flex-col items-center">
         <AnimatedSection
           animation="fadeIn"
-          className="flex flex-col items-center justify-center mb-12"
+          className="flex flex-col items-center justify-center"
         >
           <div className="relative w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[400px] md:h-[400px]">
             <motion.div
-              initial={{ scale: 0.8, opacity: 0 }}
+              initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.2 }}
+              transition={{ duration: 0.4, delay: 0.1 }}
               className="relative z-10 rounded-full overflow-hidden"
             >
               <Image
-                src="/profile-no-background.png"
+                src="/paloma.jpeg"
                 alt="Foto de Paloma"
                 width={400}
                 height={400}
-                className="object-cover grayscale"
                 priority
               />
             </motion.div>
@@ -44,17 +43,6 @@ export function HeroSection() {
               Engenheira Mecânica
             </AnimatedText>
           </div>
-          <motion.p
-            className="text-lg md:text-xl text-gray-600 max-w-xl"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-          >
-            Duis aute irure dolor em reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </motion.p>
         </AnimatedSection>
       </div>
     </section>
