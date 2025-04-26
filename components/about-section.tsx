@@ -3,24 +3,21 @@ import { AnimatedList } from "@/components/animated-list";
 
 export function AboutSection() {
   return (
-    <section id="sobre" className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <AnimatedSection animation="slideUp" className="space-y-2">
-            <div className="inline-block rounded-lg bg-indigo-100 px-3 py-1 text-sm text-indigo-600">
+    <section id="sobre" className="w-full py-12 pb-48 md:py-24 lg:py-32">
+      <div className="container mx-auto px-4 md:px-8 flex flex-col items-center">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center w-full">
+          <AnimatedSection animation="slideUp" className="space-y-2 w-full">
+            <div className="inline-block rounded-lg bg-indigo-100 px-6 py-2 mb-11 text-2xl text-indigo-600">
               Sobre Mim
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Quem Sou
-            </h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
+            <p className="text-gray-500 md:text-xl w-full">
               Profissional com experiência no setor industrial
             </p>
           </AnimatedSection>
           <AnimatedSection
             animation="fadeIn"
             delay={0.2}
-            className="mx-auto max-w-3xl space-y-4 text-left"
+            className="w-full space-y-4 text-left"
           >
             <p className="text-base md:text-lg">
               Engenheira com sólida experiência no setor industrial, MBA em
@@ -37,7 +34,7 @@ export function AboutSection() {
             </p>
           </AnimatedSection>
           <AnimatedList
-            className="w-full max-w-md grid grid-cols-2 gap-4 sm:grid-cols-3 md:max-w-xl mt-8"
+            className="w-full grid grid-cols-2 gap-4 sm:grid-cols-3 mt-8"
             delay={0.4}
           >
             <div className="flex flex-col items-center space-y-2 rounded-lg border border-indigo-100 bg-white p-4 shadow-sm">
