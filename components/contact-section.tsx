@@ -55,11 +55,23 @@ export function ContactSection() {
                     </Button>
                     <Button variant="outline" className="gap-2">
                       <Linkedin className="h-4 w-4" />
-                      LinkedIn
+                      <a
+                        href="https://www.linkedin.com/in/sqpaloma/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        LinkedIn
+                      </a>
                     </Button>
                     <Button variant="outline" className="gap-2">
                       <Github className="h-4 w-4" />
-                      GitHub
+                      <a
+                        href="https://github.com/sqpaloma"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        GitHub
+                      </a>
                     </Button>
                   </AnimatedList>
                 </div>
