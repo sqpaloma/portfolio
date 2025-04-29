@@ -11,14 +11,8 @@ export function EducationSection() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <AnimatedSection animation="slideUp" className="space-y-2">
             <div className="inline-block rounded-lg bg-indigo-100 px-3 py-1 text-sm text-indigo-600">
-              Formação
-            </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Formação Acadêmica
-            </h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-              Minha trajetória educacional
-            </p>
+            </div>
           </AnimatedSection>
           <AnimatedList
             className="mx-auto grid max-w-5xl gap-8 md:grid-cols-2"

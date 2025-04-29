@@ -21,12 +21,6 @@ export function ProjectsSection() {
             <div className="inline-block rounded-lg bg-indigo-100 px-3 py-1 text-sm text-indigo-600">
               Projetos
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Projetos em Destaque
-            </h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-              Conheça alguns dos projetos que desenvolvi
-            </p>
           </AnimatedSection>
           <AnimatedList
             className="mx-auto grid max-w-5xl gap-8 md:grid-cols-2 lg:grid-cols-3"

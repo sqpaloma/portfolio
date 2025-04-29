@@ -14,12 +14,6 @@ export function ContactSection() {
             <div className="inline-block rounded-lg bg-indigo-100 px-3 py-1 text-sm text-indigo-600">
               Contato
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Vamos Conversar
-            </h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-              Entre em contato para oportunidades e colaborações
-            </p>
           </AnimatedSection>
           <AnimatedSection
             animation="scale"

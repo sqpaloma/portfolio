@@ -14,12 +14,6 @@ export function SkillsSection() {
             <div className="inline-block rounded-lg bg-indigo-100 px-3 py-1 text-sm text-indigo-600">
               Habilidades
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Habilidades Técnicas
-            </h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-              Ferramentas e tecnologias que domino
-            </p>
           </AnimatedSection>
           <div className="mx-auto w-full max-w-4xl">
             <Tabs defaultValue="sistemas" className="w-full">
