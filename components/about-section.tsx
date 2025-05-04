@@ -147,14 +147,15 @@ const skills: Skill[] = [
   },
 ];
 
-function SkillCard({ skill }: { skill: Skill }) {
+function SkillCard(skill: Skill) {
+  const { title, icon } = skill;
   return (
     <div className="group flex flex-col items-center space-y-2 rounded-lg border border-indigo-100 bg-white p-4 shadow-sm transition-all duration-300 hover:bg-indigo-100 hover:border-indigo-200 hover:shadow-md">
       <div className="rounded-full bg-indigo-100 p-2 text-indigo-600 transition-colors duration-300 group-hover:bg-white group-hover:text-indigo-600">
-        {skill.icon}
+        {icon}
       </div>
       <h3 className="text-center text-base font-medium text-gray-700 transition-colors duration-300 group-hover:text-indigo-600">
-        {skill.title}
+        {title}
       </h3>
     </div>
   );
@@ -190,7 +191,7 @@ export function AboutSection() {
 
           <AnimatedList className="w-full grid grid-cols-2 gap-4" delay={0.4}>
             {skills.map((skill, index) => (
-              <SkillCard key={index} skill={skill} />
+              <SkillCard key={index} {...skill} />
             ))}
           </AnimatedList>
         </div>
