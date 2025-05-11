@@ -58,9 +58,9 @@ export function EducationSection() {
           <AnimatedSection
             animation="fadeIn"
             delay={0.4}
-            className="mx-auto max-w-3xl space-y-4 pt-8"
+            className="mx-auto max-w-3xl pt-2"
           >
-            <h3 className="text-2xl font-bold">Idiomas</h3>
+            <h3 className="text-2xl pb-8 font-bold">Idiomas</h3>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               <motion.div
                 className="flex items-center justify-between rounded-lg border border-indigo-100 bg-white p-4 shadow-sm"
