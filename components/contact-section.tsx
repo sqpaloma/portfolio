@@ -8,7 +8,7 @@ import { Mail, Linkedin, Github } from "lucide-react";
 export function ContactSection() {
   return (
     <section id="contato" className="w-full py-12 md:py-24 lg:py-32 bg-white">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <AnimatedSection animation="slideUp" className="space-y-2">
             <div className="inline-block rounded-lg bg-indigo-100 px-6 py-2 text-2xl text-indigo-600">
