@@ -12,13 +12,9 @@ export function GoalsSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <AnimatedSection animation="slideUp" className="space-y-2">
-            <div className="inline-block rounded-lg bg-indigo-100 px-3 py-1 text-sm text-indigo-600">
+            <div className="inline-block rounded-lg bg-indigo-100 px-6 py-2 text-2xl text-indigo-600">
               Metas Profissionais
             </div>
-
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-              Para onde estou direcionando minha carreira
-            </p>
           </AnimatedSection>
           <AnimatedSection
             animation="scale"
